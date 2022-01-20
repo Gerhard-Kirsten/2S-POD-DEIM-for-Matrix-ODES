@@ -1,7 +1,16 @@
-# 2S-POD-DEIM-for-Matrix-ODES
-This package will be made available to the public upon acceptance of the related article for publication.
+This code is used to call the 2S-POD-DEIM algorithm to integrate a
+convection-diffusion-reaction ODE, where the reduced model is integrated
+by a matrix-oriented first-order exponential Euler scheme.
 
-The code corresponds to a Matlab implementation of Algorithm 2S-POD-DEIM from:
+Related Article:
 
-G. Kirsten & Valeria Simoncini. A matrix-oriented POD-DEIM algorithm applied to nonlinear differential matrix equations. 
+G. Kirsten and Valeria Simoncini. 
+A matrix-oriented POD-DEIM algorithm applied to nonlinear differential matrix equations. 
 pp. 1-25, June 2020. Revised May 2021. arXiv: 2006.13289   [math.NA]. 
+
+Related Example: Example 3, page 16.
+
+We provide this code without any guarantee that the code is bulletproof as input 
+parameters are not checked for correctness.
+Finally, if the user encounters any problems with the code, the author can be
+contacted via e-mail.
